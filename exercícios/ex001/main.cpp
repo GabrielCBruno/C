@@ -8,6 +8,6 @@ int main() {
 	printf("Digite o seu nome: ");
 	fflush(stdin);
 	scanf("%25[^\n]s", nome);
-	printf("Bem vindo(a) à disciplina de Algoritmos e Lógica de Programação II, %s.", nome);
+	printf("Bem vindo(a) Ã  disciplina de Algoritmos e LÃ³gica de ProgramaÃ§Ã£o II, %s.", nome);
 	return 0;
 }
