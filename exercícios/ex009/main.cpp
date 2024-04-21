@@ -6,13 +6,13 @@ int main() {
 	setlocale(LC_ALL, "Portuguese");
 	int codEstado, codCarga, peso;
 	float imposto, taxa_imp, preco, preco_quilo, total;
-	printf("Digite o código do Estado: ");
+	printf("Digite o cÃ³digo do Estado: ");
 	scanf ("%d", &codEstado);
 	fflush(stdin);
 	printf("Digite o peso da carga em tonelas: ");
 	scanf("%d", &peso);
 	fflush(stdin);
-	printf("Digite o código da carga: ");
+	printf("Digite o cÃ³digo da carga: ");
 	scanf("%d", &codCarga);
 	fflush(stdin);
 	switch (codEstado) {
@@ -30,7 +30,7 @@ int main() {
 			break;
 		default:
 			taxa_imp = 0;
-			printf("Valor Inválido!!!");
+			printf("Valor InvÃ¡lido!!!");
 			break;
 	}
 	if (codCarga >= 10 && codCarga <= 20) {
@@ -40,12 +40,12 @@ int main() {
 	}else if (codCarga >=31 && codCarga <=40) {
 		preco_quilo = 230;
 	}else {
-		printf ("\nCódigo de carga inválido!!!\n");
+		printf ("\nCÃ³digo de carga invÃ¡lido!!!\n");
 		preco_quilo =0;
 	}
 	imposto = peso * 1000 * preco_quilo * taxa_imp;
 	preco = peso * 1000 * preco_quilo;
 	total = preco + imposto;
-	printf("\nPeso em kg: %d\nPreço %.2f\nImposto: %.2f\nTotal: %.2f\n", peso*1000, preco, imposto, total);
+	printf("\nPeso em kg: %d\nPreÃ§o %.2f\nImposto: %.2f\nTotal: %.2f\n", peso*1000, preco, imposto, total);
 	return 0;
 }
