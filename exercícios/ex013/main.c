@@ -11,6 +11,6 @@ int main() {
             soma = soma + num;
         } 
     }
-    printf("A soma dos números inteiros de entre 200 e 500 é: %.2f.", soma);
+    printf("A soma dos números inteiros ímpares entre 200 e 500 é: %.2f.", soma);
     return 0;
 }
