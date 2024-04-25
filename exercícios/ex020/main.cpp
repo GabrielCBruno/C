@@ -8,7 +8,7 @@ int main(void) {
 	int i, j, troca, A[MAX];
 	//Entrada de dados no vetor
 	for (i=0; i <MAX; i++) {
-		printf("Digite o %d° elemento do vetor A: ", i+1);
+		printf("Digite o %dÂ° elemento do vetor A: ", i+1);
 		scanf("%d", &A[i]);
 		fflush(stdin);
 	}
