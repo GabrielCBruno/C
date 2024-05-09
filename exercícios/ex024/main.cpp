@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#define MAX 3
+#define MAX 20
 
 typedef struct Livro {
 	char titulo[35];
